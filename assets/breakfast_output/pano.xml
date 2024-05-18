@@ -1,58 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour apprev="20035" appversion="7.0.12" start="node1">
   <panorama id="node1">
+    <input levelbiashidpi="1.000" width="2730" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1536" levelbias="0.400" flat="1">
+      <level width="2730" height="1536" preload="0" predecode="0"/>
+      <level width="1365" height="768" preload="0" predecode="0"/>
+      <level width="682" height="384" preload="0" predecode="0"/>
+      <level width="341" height="192" preload="1" predecode="1"/>
+      <preview color="0x808080"/>
+    </input>
     <view pannorth="0" fovmode="2">
-      <start fov="500" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="330" tilt="90" fovfisheye="360" pan="360" scaletofit="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata copyright="" tags="早餐" source="" longitude="" latitude="" info="" comment="" description="唷～一個說故事的男人也可以做出好吃的早餐" nodeid="node1" customnodeid="" datetime="" title="早餐" author="" heading="0"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label background="1" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" border="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+    <userdata comment="" source="" copyright="" tags="早餐" nodeid="node1" author="" customnodeid="" datetime="" description="唷～一個說故事的男人也可以做出好吃的早餐" longitude="" info="" heading="0" title="早餐" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomfov="40" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomout="0" zoomspeed="2" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" rubberband="0" lockedmouse="0" zoomcentercursor="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" lockedwheel="0" dblclickfullscreen="0" contextprojections="0" sensitivity="8"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node2">
+    <input levelbiashidpi="1.000" width="2730" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1536" levelbias="0.400" flat="1">
+      <level width="2730" height="1536" preload="0" predecode="0"/>
+      <level width="1365" height="768" preload="0" predecode="0"/>
+      <level width="682" height="384" preload="0" predecode="0"/>
+      <level width="341" height="192" preload="1" predecode="1"/>
+      <preview color="0x808080"/>
+    </input>
     <view pannorth="0" fovmode="2">
-      <start fov="500" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="330" tilt="90" fovfisheye="360" pan="360" scaletofit="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata copyright="" tags="早餐" source="" longitude="" latitude="" info="" comment="" description="這是杯盤狼藉的前一刻。&#xa;一陣秋風掃落葉後，只留下一點殘渣說明了曾經存在的餐點。" nodeid="node2" customnodeid="" datetime="" title="早餐" author="" heading="0"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label background="1" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" border="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+    <userdata comment="" source="" copyright="" tags="早餐" nodeid="node2" author="" customnodeid="" datetime="" description="這是杯盤狼藉的前一刻。&#xa;一陣秋風掃落葉後，只留下一點殘渣說明了曾經存在的餐點。" longitude="" info="" heading="0" title="早餐" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomfov="40" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomout="0" zoomspeed="2" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" rubberband="0" lockedmouse="0" zoomcentercursor="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" lockedwheel="0" dblclickfullscreen="0" contextprojections="0" sensitivity="8"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <panorama id="node3">
+    <input levelbiashidpi="1.000" width="1707" overlap="1" levelingpitch="0" cylinder="1" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="960" levelbias="0.400" flat="1">
+      <level width="1707" height="960" preload="0" predecode="0"/>
+      <level width="853" height="480" preload="0" predecode="0"/>
+      <level width="426" height="240" preload="1" predecode="1"/>
+      <preview color="0x808080"/>
+    </input>
     <view pannorth="0" fovmode="2">
-      <start fov="500" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <start tilt="0" projection="4" fov="500" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="330" tilt="90" fovfisheye="360" pan="360" scaletofit="0"/>
+      <max fovstereographic="330" fovfisheye="360" tilt="90" fov="140" pan="360" scaletofit="0"/>
     </view>
-    <userdata copyright="" tags="早餐" source="" longitude="" latitude="" info="" comment="" description="客人滿不滿意，只要看這群不相識的人，願意一起拍個照，臉上的表情已經說明，對民宿的滿意有多少。" nodeid="node3" customnodeid="" datetime="" title="早餐" author="" heading="0"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label background="1" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" border="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+    <userdata comment="" source="" copyright="" tags="早餐" nodeid="node3" author="" customnodeid="" datetime="" description="客人滿不滿意，只要看這群不相識的人，願意一起拍個照，臉上的表情已經說明，對民宿的滿意有多少。" longitude="" info="" heading="0" title="早餐" latitude=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label width="180" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1" background="1" backgroundalpha="1" bordercolor="0x000000" wordwrap="1" textalpha="1" height="20" borderalpha="1" borderradius="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomfov="40" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomout="0" zoomspeed="2" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" rubberband="0" lockedmouse="0" zoomcentercursor="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" lockedwheel="0" dblclickfullscreen="0" contextprojections="0" sensitivity="8"/>
+    <transition softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" enabled="1" type="crossdissolve" delay="none" zoomspeed="2" blendcolor="0x000000" zoomin="0" zoomout="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control zoomcentercursor="1" contextfullscreen="1" invertwheel="0" lockedwheel="0" simulatemass="1" contextvr="1" dblclickfullscreen="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextprojections="0" sensitivity="8" hideabout="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" tags="" title="早餐照" comment="" author="" description="老闆用心搭配的餐點"/>
+    <userdata tags="" author="" description="老闆用心搭配的餐點" comment="" copyright="" title="早餐照"/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
